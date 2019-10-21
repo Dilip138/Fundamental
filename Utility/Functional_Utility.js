@@ -130,15 +130,19 @@ exports.power2=(userInput)=>{
        for(let i=0;i<arr.length;i++){
            for(let j=i+1;j<arr.length;j++){
                for(let k=j+1;k<arr.length;k++){
-                   console.log(arr[i]+arr[j]+arr[k])
+                   if(arr[i]+arr[j]+arr[k]==0){
+                       console.log("Number of distinct triplet")    
+                   }else{
+                       console.log("not a distinct triplet")
+                   }
                }
            }
        }
    }
    /**
     * @purpose: Write a program ​ Distance.java t ​ hat takes two integer command-line arguments x
-and y and prints the Euclidean distance from the point (x, y) to the origin (0, 0). The
-formulae to calculate distance = sqrt(x*x + y*y). Use Math.power function.
+    and y and prints the Euclidean distance from the point (x, y) to the origin (0, 0). The
+    formulae to calculate distance = sqrt(x*x + y*y). Use Math.power function.
     */
    exports.distance=()=>{
        let x=readline.question("Enter the number of x")
