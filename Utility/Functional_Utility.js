@@ -84,7 +84,7 @@ exports.power2=(userInput)=>{
 }
 
 /**
- * @purpose: 
+ * @purpose: User Input and Replace String Template “Hello <<UserName>>, How are you?”
  */
    exports.nameReplace=(str)=>{
        let str_length=str.length
@@ -108,12 +108,12 @@ exports.power2=(userInput)=>{
         
         let num = readline.question('Enter the ele');
         let row = readline.questionInt('row'); 
-        let col = readline.questionInt('col');; 
+        let col = readline.questionInt('col');
         let i = 0;
 
         let  array2D = [[]];
         for(let r = 0; r < row; ++r)
-    {
+        {
             array2D[r] = [];
              for(let c = 0; c < col; ++c)
         {
@@ -141,8 +141,8 @@ exports.power2=(userInput)=>{
    }
    /**
     * @purpose: Write a program ​ Distance.java t ​ hat takes two integer command-line arguments x
-    and y and prints the Euclidean distance from the point (x, y) to the origin (0, 0). The
-    formulae to calculate distance = sqrt(x*x + y*y). Use Math.power function.
+    *           and y and prints the Euclidean distance from the point (x, y) to the origin (0, 0). The
+    *           formulae to calculate distance = sqrt(x*x + y*y). Use Math.power function.
     */
    exports.distance=()=>{
        let x=readline.question("Enter the number of x")

@@ -1,8 +1,8 @@
 const readline = require("readline-sync");
 
 /**
- * @purpose: One string is an anagram of another if the second is simply a
- *rearrangement of the first.The Two Strings are Anagram or not..
+ * @purpose: One string is an anagram of another if the second is simply arearrangement of the first.
+ *           The Two Strings are Anagram or not..
  */
 exports.anagram = () => {
   function isAnagram(str1, str2) {
@@ -75,7 +75,7 @@ exports.bubbleSort = () => {
 };
 /**
  * @purpose:Reads in strings from standard input and prints them in sorted order.
-Uses insertion sort.
+ *          Uses insertion sort.
  */
 exports.insertionSort = () => {
   let temp;
@@ -94,8 +94,7 @@ exports.insertionSort = () => {
   }
 };
 /**
- * @purpose:​ Write a program with Static Functions to do Merge Sort of list of
-Strings.
+ * @purpose:​ Write a program with Static Functions to do Merge Sort of list of Strings.
  */
 exports.mergeSort = () => {
   function merge(left, right) {
@@ -128,7 +127,8 @@ exports.mergeSort = () => {
   console.log(mergeSort(array));
 };
 /**
- * @purpose:
+ * @purpose:  Read in a list of words from File. Then prompt the user to enter a word to
+ *            search the list. The program reports if the search word is found in the list.
  */
 exports.binarySearch = () => {
   function search(arr, x) {
@@ -159,11 +159,10 @@ exports.binarySearch = () => {
   }
 };
 /**
- * @purpose:To the Util Class add ​ dayOfWeek static function that takes a date as input and
-prints the day of the week that date falls on. Your program should take three
-command-line arguments: m (month), d (day), and y (year). For m use 1 for January,
-2 for February, and so forth. For output print 0 for Sunday, 1 for Monday, 2 for
-Tuesday, and so forth
+ * @purpose:To the Util Class add ​ dayOfWeek static function that takes a date as input and prints the 
+ * day of the week that date falls on. Your program should take three command-line arguments: 
+ * m (month), d (day), and y (year). For m use 1 for January, 2 for February, and so forth. 
+ * For output print 0 for Sunday, 1 for Monday, 2 for Tuesday, and so forth
  */
 exports.dayOfWeek = () => {
   let m = readline.question("Enter the month");
@@ -179,8 +178,7 @@ exports.dayOfWeek = () => {
 
 /**
  * @purpose:To the Util Class add ​ temperaturConversion static function, given the temperature
-in fahrenheit as input outputs the temperature in Celsius or viceversa using the
-formula
+ *          in fahrenheit as input outputs the temperature in Celsius or viceversa using the formula
  */
 exports.temperature = () => {
   /**
@@ -198,9 +196,9 @@ exports.temperature = () => {
 };
 /**
  * @purpose: Write a Util Static Function to calculate ​ monthlyPayment that reads in three
-command-line arguments P, Y, and R and calculates the monthly payments you
-would have to make over Y years to pay off a P principal loan amount at R per cent
-interest compounded monthly.
+ *           command-line arguments P, Y, and R and calculates the monthly payments you would 
+ *           have to make over Y years to pay off a P principal loan amount at R per cent
+ *           interest compounded monthly.
  */
 exports.monthlyPayment = () => {
   let P = readline.question("Enter the principal amount");
@@ -216,7 +214,7 @@ exports.monthlyPayment = () => {
 };
 /**
  * @purpose:Write a static function ​ sqrt t ​ o compute the square root of a nonnegative number c
-given in the input using Newton's method:
+ *          given in the input using Newton's method:
  */
 exports.sqrt = () => {
   let c = readline.question("Enter the number");
@@ -229,23 +227,10 @@ exports.sqrt = () => {
 };
 
 /**
- * Execution       :   1. default node      cmd> node .js 
-*                     
-* 
-*  Purpose         : Write a static function ​ toBinary that outputs the binary (base 2) representation of
-                     the decimal number typed as the input. It is based on decomposing the number into
-                     a sum of powers of 2. For example, the binary representation of 106 is 11010102,  
-* 
-*  @description    
-* 
-*  @file           : DeimalToBinary.js
-*  @overview       : ReplaceUName module to replace one string template by new string.
-*  @module         : ReplaceUName - This is optional if expeclictly its an npm or local package
-*  @author         : BridgeLabz <bridgeit@bridgeit>
-*  @version        : 1.0
-*  @since          : 15-10-2019
-
-*/
+ * @purpose:Write a static function ​ toBinary that outputs the binary (base 2) representation of
+ *          the decimal number typed as the input. It is based on decomposing the number into
+ *          a sum of powers of 2. For example, the binary representation of 106 is 11010102,
+ */
 exports.toBinary = () => {
   let x = "";
   let n = readline.question("enter the numbers");
@@ -258,7 +243,7 @@ exports.toBinary = () => {
 
 /**
  * @purpose: convert to Binary using toBinaryfunction and perform the following functions.
- *  i. Swap nibbles and find the new number.
+ *         i. Swap nibbles and find the new number.
  */
 exports.swapNibble = () => {
   //    function swapNibbles(x)
@@ -271,7 +256,7 @@ exports.swapNibble = () => {
 
   /**
    * @purpose:Number should be power of 2.
-   * ii. Find the resultant number is the number is a power of 2.
+   *      ii. Find the resultant number is the number is a power of 2.
    */
 exports.resultantNumber=()=>{
     function isPowerOfTwo (x)
