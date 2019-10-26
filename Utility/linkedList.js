@@ -157,7 +157,48 @@ class LinkedList {
     }
 
   }
- 
+  sortedInsertwodupli(data) {
+    let node = new Node(data);
+    let current = this.head;
+    if (this.head && node.data == current.data) {
+    console.log("already exists")
+    }
+    else if (!this.head || node.data < current.data) {
+    node.next = this.head;
+    this.head = node
+    this.size++
+    } else if (current.next && node.data == current.next.data) {
+    console.log("already exists")
+    } else {
+    while (current.next && node.data > current.next.data) {
+    current = current.next;
+    }
+    node.next = current.next;
+    current.next = node;
+    this.size++
+    }
+  }
+  sortedInstDupFalsOrAdd(data) {
+    let node = new Node(data);
+    let current = this.head;
+    if (this.head && node.data == current.data) {
+    this.deleteElement(data)
+    }
+    else if (!this.head || node.data < current.data) {
+    node.next = this.head;
+    this.head = node
+    this.size++
+    } else if (current.next && node.data == current.next.data) {
+    this.deleteElement(data)
+    } else {
+    while (current.next && node.data > current.next.data) {
+    current = current.next;
+    }
+    node.next = current.next;
+    current.next = node;
+    this.size++
+    }
+  }
 }
 
 module.exports = {

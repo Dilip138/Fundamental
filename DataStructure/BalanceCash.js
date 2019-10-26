@@ -13,5 +13,19 @@
 *  @since          : 15-10-2019
 
 */
-const access=require('../Utility/Datastructure_ListAndQueue_Utility')
-let y=new access.Queue()
+// const access=require('../Utility/Datastructure_ListAndQueue_Utility')
+// let y=new access.Queue()
+
+let list=require('../Utility/Datastructure_ListAndQueue_Utility')
+let q=new list.Queue()
+let input=require('readline-sync')
+let num1=input.question("Enter the no of input")
+for(let i=0;i<num1;i++){
+    let data1=input.question("Enter the data")
+    q.enqueue(data1)
+}
+let num2=input.question("Enter the no of input")
+for(let i=0;i<num2;i++){ 
+    q.dequeue(i)  
+}
+console.log("Dequeued item is " + q.dequeue().data)

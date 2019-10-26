@@ -12,16 +12,20 @@
 
 */
 
-    const access=require('../Utility/Datastructure_ListAndQueue_Utility')
-    let c=new access.BinarySearch()
+//    const access=require('../Utility/Datastructure_ListAndQueue_Utility')
+//    let c=new access.BinarySearch()
 
-// let list=require('../Utility/Datastructure_ListAndQueue_Utility')
-// let Bst=new list.BinarySearch()
-//     Bst.forEach(element => {
-//         Bst.insert(element)
-//     });
-//     let root=Bst.getRootNode()
-//     Bst.inorder(root)
+let list=require('../Utility/Datastructure_ListAndQueue_Utility')
+let Bst=new list.BinarySearch()
+let input = require('readline-sync')
+let num = input.question('Enter the no of inputs:')
+for (let i=0;i<num;i++){
+    let data1 = input.question('Enter the data:')
+    Bst.insert(data1)
+}
+   
+    let root=Bst.getRootNode()
+             Bst.inorder(root)
 
 
     

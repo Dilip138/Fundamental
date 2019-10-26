@@ -8,9 +8,9 @@
 
         let list = require('../Utility/linkedList');
         let fs=require('fs')
-        file=fs.readFileSync("../Utility/file2.txt")
+        let file=fs.readFileSync("../Utility/file2.txt")
         
-        let olist = new list.LinkedList() ////object
+        let olist = new list.LinkedList() //object
         fileArr=file.toString().split(' ')
         console.log(fileArr)
         
