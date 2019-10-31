@@ -1,0 +1,41 @@
+{
+    "Rice" : [
+        {
+            "name" : "Basmati Rice",
+            "weight" : 100,
+            "price" : 120
+        },
+        {
+            "name" : "Brown Rice",
+            "weight" : 60,
+            "price" : 100
+        }
+        
+    ],
+    "Pulses" : [
+        {
+            "name" : "Mong",
+            "weight" : 50,
+            "price" : 120
+        },
+        {
+            "name" : "Tuaer",
+            "weight" : 100,
+            "price" : 150
+        }
+        
+    ],
+    "Wheats" : [
+        {
+            "name" : "Spelt",
+            "weight" : 60,
+            "price" : 110
+        },
+        {
+            "name" : "Durum",
+            "weight" : 70,
+            "price" : 130
+        }
+        
+    ]
+}

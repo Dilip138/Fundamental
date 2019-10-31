@@ -1,0 +1,60 @@
+{
+    "Doctor":[
+        {
+            "name":"arunshukla",
+            "id":101,
+            "Specialization":"eyespecialist",
+            "Availablity":"5pm"
+
+    }
+    ],
+    "Patient":[
+        {
+            "name":"akash",
+            "id":201,
+            "MobNo":9587426348
+        },
+
+        {
+            "name":"amit",
+            "id":202,
+            "MobNo":9587426449
+        },
+
+        {
+            "name":"ananad",
+            "id":203,
+            "MobNo":9587426550
+        },
+
+        {
+            "name":"abhay",
+            "id":204,
+            "MobNo":9587426651
+        },
+
+        {
+            "name":"arvind",
+            "id":205,
+            "MobNo":9587426752
+        },
+
+        {
+            "name":"Bikash",
+            "id":206,
+            "MobNo":9587426853
+        },
+
+        {
+            "name":"Binay",
+            "id":207,
+            "MobNo":9587426954
+        },
+
+        {
+            "name":"Bikash",
+            "id":208,
+            "MobNo":9587427055
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "Stock":[
+        {
+            "StockName":"Financial Group",
+            "NumOfShares":10,
+            "SharePrice":15
+        },
+
+        {
+            "StockName":"tata Group",
+            "NumOfShares":20,
+            "SharePrice":25
+        }
+    ]
+}
