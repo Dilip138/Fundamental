@@ -1,3 +1,16 @@
+/**
+* Execution       :   1. default node      cmd> node .js 
+*                     
+* 
+*  @Purpose         : Clinique Management Programme.​
+* 
+*  @file           : Clinic.js
+*  @module         :  - readFileSync,parse,jsonFile
+*  @author         : Dilip
+*  @version        : 1.0
+*  @since          : 15-10-2019
+
+*/
 
 let fs=require('fs')
 let content=fs.readFileSync('clinic.json', 'utf8')
