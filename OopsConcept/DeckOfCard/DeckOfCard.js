@@ -2,11 +2,14 @@
 * Execution       :   1. default node      cmd> node .js 
 *                     
 * 
-*  @Purpose         : Create a JSON file having Inventory Details for Rice, Pulses and Wheats
-*                     with properties name, weight, price per kg.
+*  @Purpose         : Write a Program ​ DeckOfCards.java ​ , to initialize deck of cards having suit ("Clubs",
+*                    "Diamonds", "Hearts", "Spades") & Rank ("2", "3", "4", "5", "6", "7", "8", "9", "10",
+*                    "Jack", "Queen", "King", "Ace"). Shuffle the cards using Random method and then
+*                     distribute 9 Cards to 4 Players and Print the Cards the received by the 4 Players
+*                     using 2D Array...
 * 
 *  @file           : DeckOfCards.js
-*  @module         :  - Rice,Pulses,Wheat,total
+*  @module         :  -Suits,Ranks
 *  @author         : Dilip
 *  @version        : 1.0
 *  @since          : 15-10-2019

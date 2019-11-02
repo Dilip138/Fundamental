@@ -1,4 +1,3 @@
-
 function LoginController() {
 
     function isValidUserId(userList, user) {
