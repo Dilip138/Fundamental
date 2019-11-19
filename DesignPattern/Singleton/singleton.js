@@ -9,10 +9,10 @@
 *  @since          : 02-11-2019
 
 */
-const carObject = require("./singletonBl")
-let originalCar = new carObject();
-let firstInstance = originalCar.getInstance();
-let secondInstance = originalCar.getInstance();
+const singleton = require("./singletonBl")
+let computerObj = new singleton();
+let firstInstance = computerObj.getInstance();
+let secondInstance = computerObj.getInstance();
 
 firstInstance.open();//open the  in first instance
 secondInstance.shutDown();//shutDown the  in second instance

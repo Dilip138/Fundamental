@@ -35,6 +35,7 @@ Click.prototype = {
     /**
      * 
      * @param:Event handlers are functions that will be notified when a certain event fires.
+     * o and thisObj are declare the parameter of the fire function
      */
     fire: function (o, thisObj) {
         let scope = thisObj;

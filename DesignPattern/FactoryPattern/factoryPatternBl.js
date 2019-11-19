@@ -19,7 +19,7 @@ class Sedan extends Car {
   }
 }
 /**
-* @description : Computer Factory class which will return suv or sedan
+* @description : Car Factory class which will return suv or sedan
 * @param {name} name of suv/sedan
 * @param {color} color of suv/sedan
 * @param {price} price of suv/sedan

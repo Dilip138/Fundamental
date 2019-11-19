@@ -12,7 +12,6 @@
 */
 const information = require('./prototypeBl')
 let proto = new information.Student("Dilip", "Soni", "Computer Science && Engineering")
-// proto = new information.Student("Rahul", "Singh", "Mechanical Engineering")
 let prototype = new information.StudentPrototype(proto)
 let customer = prototype.clone();
 customer.say();

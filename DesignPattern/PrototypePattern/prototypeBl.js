@@ -1,3 +1,6 @@
+/**
+ *@param:craete a function students for declaring the student information 
+ */
 function Student(first, last, status) {
     this.first = first;
     this.last = last;
@@ -8,6 +11,11 @@ function Student(first, last, status) {
         );
     };
 }
+/**
+ * 
+ * @param: student Prototype  is required, when object creation is time consuming,
+ * so we create object with existing object itsef 
+ */
 function StudentPrototype(proto) {
     this.proto = proto;
     this.clone = function () {

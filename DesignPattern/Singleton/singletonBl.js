@@ -1,17 +1,17 @@
 let Computer = function () {
-  let computerInstance;
+  let computerInstance; // create a instance of computer function
 
   function initialize() {
-    let isOpen = false;
-
+    let isOpen = false;//create a function initialize for initialization purpose
+    
     function open() {
-      isOpen = true;
+      isOpen = true;//create a function open for running pupose
     }
     function shutDown() {
-      isOpen = false;
+      isOpen = false;//create a function shutDown for not running purpose
     }
     function state() {
-      return isOpen ? "Runnibg" : "Not Running";
+      return isOpen ? "Running" : "Not Running";//create a function state for running and and not running 
     }
     return {
       open: open,
@@ -22,7 +22,7 @@ let Computer = function () {
   return {
     getInstance: function () {
       if (!computerInstance) computerInstance = initialize();
-      return computerInstance;
+      return computerInstance;//here getInstance is used for initialize at once for check the singleton
     }
   }
 }
