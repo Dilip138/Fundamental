@@ -2,8 +2,7 @@ let Computer = function () {
   let computerInstance; // create a instance of computer function
 
   function initialize() {
-    let isOpen = false;//create a function initialize for initialization purpose
-    
+    let isOpen = false;//create a function initialize for initialization purpose  
     function open() {
       isOpen = true;//create a function open for running pupose
     }
@@ -26,5 +25,4 @@ let Computer = function () {
     }
   }
 }
-
 module.exports = Computer

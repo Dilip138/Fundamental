@@ -1,3 +1,4 @@
+//craete a class car and which is used name,color,price
 class Car {
   constructor(name, color, price) {
     this.name = name;
@@ -42,4 +43,3 @@ class CarFactory {
 module.exports = {
   Suv, Sedan, CarFactory
 }
-

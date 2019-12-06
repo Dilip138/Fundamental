@@ -9,7 +9,6 @@ exports.anagram = () => {
     if (str1.length !== str2.length) {
       return false;
     }
-
     var sortStr1 = str1
       .split("")
       .sort()
@@ -21,7 +20,6 @@ exports.anagram = () => {
 
     return sortStr1 === sortStr2;
   }
-
   console.log(isAnagram("earth", "haert"));
   console.log(isAnagram("dog", "god"));
   console.log(isAnagram("foo", "bar"));
@@ -109,21 +107,17 @@ exports.mergeSort = () => {
     }
     return arr.concat(left.slice().concat(right.slice()));
   }
-
   function mergeSort(arr) {
     if (arr.length < 2) {
       return arr;
     }
-
     const middle = Math.floor(arr.length / 2);
     const left = arr.slice(0, middle);
     const right = arr.slice(middle);
 
     return merge(mergeSort(left), mergeSort(right));
   }
-
   const array = [9, 2, 7, 6, 11, 3, 1, 10, 13, 8];
-
   console.log(mergeSort(array));
 };
 /**
@@ -148,7 +142,6 @@ exports.binarySearch = () => {
       }
     }
   }
-
   let array = ["abhishek", "dilip", "golu", "knee", "mobile"];
   let x = "golu";
   let result = search(array, x);
@@ -253,27 +246,25 @@ exports.swapNibble = () => {
 
   console.log(nibble);
 };
+/**
+ * @purpose:Number should be power of 2.
+ *      ii. Find the resultant number is the number is a power of 2.
+ */
+exports.resultantNumber = () => {
+  function isPowerOfTwo(x) {
+    let powerOfTwo = 1;
 
-  /**
-   * @purpose:Number should be power of 2.
-   *      ii. Find the resultant number is the number is a power of 2.
-   */
-exports.resultantNumber=()=>{
-    function isPowerOfTwo (x)
-    {
-        let powerOfTwo = 1;
-
-    while (powerOfTwo < x && powerOfTwo < 2147483648){
-             powerOfTwo *= 2;
+    while (powerOfTwo < x && powerOfTwo < 2147483648) {
+      powerOfTwo *= 2;
     }
-            if (x == powerOfTwo){
-                return true
-            }
-            else{
-                return false
-            }
-    }   
-    console.log(isPowerOfTwo(1024))
+    if (x == powerOfTwo) {
+      return true
+    }
+    else {
+      return false
+    }
+  }
+  console.log(isPowerOfTwo(1024))
 }
 
 

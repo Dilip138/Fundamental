@@ -1,13 +1,12 @@
 /**
-* Execution       :   1. default node      cmd> node observer.js                  
-*  @Purpose         : Observer design pattern is useful when you are interested in the state of an object
+*  @Execution      :   1. default node      cmd> node observer.js                  
+*  @Purpose        : Observer design pattern is useful when you are interested in the state of an object
 *                     and want to get notified whenever there is any change.
 *  @file           : Observer.js
 *  @module         :  -Subscribe,Unsubsribe,Fire,add,show,run
 *  @author         : Dilip
 *  @version        : 1.0
 *  @since          : 15-10-2019
-
 */
 function Click() {
     this.handlers = []; // observers
@@ -82,4 +81,3 @@ function run() {
     log.show();
 }
 run();
-

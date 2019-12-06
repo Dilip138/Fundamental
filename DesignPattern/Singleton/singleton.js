@@ -1,13 +1,12 @@
 /**
-* Execution       :   1. default node      cmd> node Singleton.js 
-*  @Purpose         :Refer sigleton link and practice the various SIngleton Approaches that are
+*  @Execution      :   1. default node      cmd> node Singleton.js 
+*  @Purpose        : Refer sigleton link and practice the various SIngleton Approaches that are
 *                    possible. This includes
 *  @file           : Singleton.js
 *  @module         :  - init,getInstance
 *  @author         : Dilip
 *  @version        : 1.0
 *  @since          : 02-11-2019
-
 */
 const singleton = require("./singletonBl")
 let computerObj = new singleton();
