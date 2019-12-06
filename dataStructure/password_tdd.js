@@ -1,4 +1,4 @@
-var Assert = require('assert')
+const assert = require('assert')
 /**
  * @purpose:TDD-Designing and Developing tests for password length functionality of a program
  */
@@ -15,6 +15,6 @@ class Passwordvalidator {
             return false
     }
 }
-let pv = new Passwordvalidator()
-Assert.equal("true", pv.isvalid("abc123"));
-Assert.equal("true", pv.isvalid("abc")); 
+let passwordValidator = new Passwordvalidator()
+assert.equal("true", passwordValidator.isvalid("abc123"));
+assert.equal("true", passwordValidator.isvalid("abc")); 

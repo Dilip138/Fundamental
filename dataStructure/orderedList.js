@@ -8,12 +8,12 @@
 *  @module   :  - insert,sortList,printList,findElement,deleteElement,readFileSync,writeFileSync
 *  @author   : Dilip
 *  @version  : 1.0
-*  @since    : 15-10-2019
+*  @since    : 25-10-2019
 */
 const input = require('readline-sync')
-let list = require('../Utility/linkedList');
+let list = require('../utility/linkedList');
 let fs = require('fs')
-let file = fs.readFileSync("../Utility/file2.txt")
+let file = fs.readFileSync("../utility/orderedList.txt")
 let olist = new list.LinkedList() //object
 fileArr = file.toString().split(' ')
 console.log(fileArr)

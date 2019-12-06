@@ -7,10 +7,10 @@
 *  @module         :  - addFront,addRear,RemoveFront,RemoveRear,Size,Pallindrome
 *  @author         : Dilip
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 26-10-2019
 */
 const readline = require('readline-sync')
-const access = require('../Utility/Datastructure_ListAndQueue_Utility')
+const access = require('../utility/datastructure_listAndqueue_utility')
 let b = new access.Deque()
 let str = readline.question("enter the string")
 let checkPallindrome = b.palindrome(str)

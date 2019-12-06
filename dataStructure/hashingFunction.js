@@ -6,12 +6,12 @@
 *  @module         :  HashingFunction -sortedInstDupFalsOrAdd, sortedInsertwodupli, push, getArr,printList
 *  @author         : Dilip 
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 24-10-2019
 */
-let hashF = require('../Utility/Datastructure_ListAndQueue_Utility')
+let hashF = require('../utility/datastructure_listAndqueue_utility')
 const input = require('readline-sync')
 let Num = input.questionInt("Enter the number to find:")
 const fs = require('fs')
-X = fs.readFileSync("../Utility/file3.txt")
+X = fs.readFileSync("../Utility/hashFunction.txt")
 console.log(X)
 hashF.hashFunc(X, Num)

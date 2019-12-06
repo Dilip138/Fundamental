@@ -7,9 +7,9 @@
 *  @module         : BlanceCash - This is optional if expeclictly its an npm or local package
 *  @author         : Dilip 
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 22-10-2019
 */
-let list = require('../Utility/Datastructure_ListAndQueue_Utility')
+let list = require('../utility/datastructure_listAndqueue_utility')
 let q = new list.Queue()
 let input = require('readline-sync')
 let num1 = input.question("Enter the no of input")

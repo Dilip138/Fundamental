@@ -6,7 +6,7 @@
 *  @module         : balanceParenthese - This is optional if expeclictly its an npm or local package
 *  @author         : Dilip 
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 23-10-2019
 */
-const access = require('../Utility/Datastructure_Utility')
+const access = require('../utility/datastructure_utility')
 access.balanceParentheses()

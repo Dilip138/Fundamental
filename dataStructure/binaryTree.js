@@ -5,9 +5,9 @@
 *  @module         : binarySearchTree -inser,inserNode,preorder,inorder,postorder,getRootNode
 *  @author         : Dilip 
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 23-10-2019
 */
-let list = require('../Utility/Datastructure_ListAndQueue_Utility')
+let list = require('../utility/datastructure_listAndqueue_qtility')
 let Bst = new list.BinarySearch()
 let input = require('readline-sync')
 let num = input.question('Enter the no of inputs:')
