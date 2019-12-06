@@ -5,11 +5,11 @@
 *  @module         :  - readFileSync,writeFileSync,addPerson,deletePerson,printFile,editPerson
 *  @author         : Dilip
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 29-10-2019
 */
 const fs = require("fs");
-const Util = require("./adBoMain")
-let jsonFile = JSON.parse(fs.readFileSync('AdresBook.json'))
+const Util = require("./addressBookBl")
+let jsonFile = JSON.parse(fs.readFileSync('addresBook.json'))
 Util.addressOperations(jsonFile)
 module.exports = {
     addressOperations

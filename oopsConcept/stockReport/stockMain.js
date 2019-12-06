@@ -6,7 +6,7 @@
 *  @module         :  - StockName,NoOfShares,SharePrice,total
 *  @author         : Dilip
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 1-11-2019
 */
 let list = require('./Stock')
 let fs = require('fs')

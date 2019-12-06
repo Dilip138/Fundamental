@@ -5,7 +5,7 @@
 *  @module         :  - readFileSync,parse,jsonFile
 *  @author         : Dilip
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 30-10-2019
 */
 let fs = require('fs')
 let content = fs.readFileSync('clinic.json', 'utf8')

@@ -8,7 +8,7 @@
 *  @module         :  - pattern,set,get,replace
 *  @author         : Dilip
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 31-10-2019
 */
 const input = require("readline-sync");
 let Str =

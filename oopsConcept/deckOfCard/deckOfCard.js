@@ -9,7 +9,7 @@
 *  @module         :  -Suits,Ranks
 *  @author         : Dilip
 *  @version        : 1.0
-*  @since          : 15-10-2019
+*  @since          : 31-10-2019
 */
 let Suits = ['Hearts', 'Spades', 'Clubs', 'Diamonds'];
 let Ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"];
