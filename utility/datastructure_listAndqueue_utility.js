@@ -125,15 +125,6 @@ class BinarySearch {
     }
 
 }
-// let Bst=new BinarySearch()
-//         Bst.insert(10)
-//         Bst.insert(8)
-//         Bst.insert(7)
-//         Bst.insert(5)
-
-// let root=Bst.getRootNode();
-//         Bst.inorder(root)
-
 /**
  * @purpose:Create a Program which creates Banking Cash Counter where people come in to deposit 
  * Cash and withdraw Cash. Have an input panel to add people to Queue to either deposit or withdraw 
@@ -182,15 +173,6 @@ class Queue {
     }
 
 }
-// let q=new Queue()
-//     q.enqueue(20)  
-//     q.enqueue(30)
-//     q.dequeue()
-//     q.dequeue()
-//     q.enqueue(10)
-//     q.enqueue(60)
-//     console.log("Dequeued item is " + q.dequeue())
-
 /**
  * @purpose:Create a Slot of 10 to store Chain of Numbers that belong to each Slot to efficiently 
  *          search a number from a given set of number 

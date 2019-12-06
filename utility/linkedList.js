@@ -12,7 +12,10 @@ class LinkedList {
     this.tail = null
     this.size = 0;
   }
-  //insert the data in linkedList
+  /**
+   * 
+   * @param {insert elements in node} data 
+   */
   insert(data) {
     let node = new Node(data);
     if (this.head == null) {
@@ -24,7 +27,9 @@ class LinkedList {
       this.tail = node
     }
   }
-  //display the data 
+  /**
+   * display nodes in the linkedList
+   */
   printList() {
     let current = this.head;
     while (current !== null) {
@@ -32,7 +37,10 @@ class LinkedList {
       current = current.next;
     }
   }
-  //insert tha data at last
+  /**
+   * 
+   * @param {insert the data at last node of linkedList} data 
+   */
   insertLast(data) {
     let node = new Node(data);
     let current;
@@ -48,7 +56,10 @@ class LinkedList {
     }
     this.size++;
   }
-  // sort the data before insert then after inserted
+  /**
+   * 
+   * @param {sort the elements and also insert the data} data 
+   */
   sortedInsert(data) {
     let node = new Node(data);
     let current = this.head;
@@ -65,7 +76,10 @@ class LinkedList {
       this.size++;
     }
   }
-  //find the data using linkedList
+  /**
+   * 
+   * @param {find the elements in the linkedList} data 
+   */
   findElement(fdata) {
     let current = this.head;
     let count = 0;
@@ -79,7 +93,9 @@ class LinkedList {
     }
     return false;
   }
-  //push the data in the file  
+  /**
+   * push the data in the linkedList
+   */
   getArr() {
     let arr = [];
     let current = this.head;
@@ -89,7 +105,10 @@ class LinkedList {
     }
     return arr;
   }
-  //delete the data 
+/**
+ * 
+ * @param {delete the data in the linkedList} data 
+ */
   deleteElement(data) {
     let current = this.head;
     if (!this.head) {
@@ -107,7 +126,9 @@ class LinkedList {
     }
     this.size--;
   }
-  //sorting the data in assending order
+  /**
+   * sorting the data in assending order.
+   */
   sortList() {
     let current = this.head
     this.index = null;
@@ -130,7 +151,9 @@ class LinkedList {
       }
     }
   }
-  //remove the duplicate element
+  /**
+   *   remove the duplicate element in the linkedList.
+   */
   removeDublicate() {
     current = this.head
     this.index = null
@@ -157,7 +180,10 @@ class LinkedList {
       }
     }
   }
-  //if the the two data is already exist in the file then remove otherwise add the element
+  /**
+   * 
+   * @param {if the the two data is already exist in the file then remove otherwise add the element} data 
+   */
   sortedInsertwodupli(data) {
     let node = new Node(data);
     let current = this.head;
@@ -179,7 +205,10 @@ class LinkedList {
       this.size++
     }
   }
-  //sort the element after check the duplecate element otherwise add the element
+  /**
+   * 
+   * @param {sort the element after check the duplecate element otherwise add the element} data 
+   */
   sortedInstDupFalsOrAdd(data) {
     let node = new Node(data);
     let current = this.head;
